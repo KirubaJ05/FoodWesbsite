@@ -1,7 +1,9 @@
 /* ----- General ------------------ */
 
-
-
+.mainArticle{
+    max-width: 1000px;
+    margin: auto;
+}
 
 /* ----- Nav -------------------- */
 
@@ -140,9 +142,9 @@ h3{
 #selectedItems{
     background-color: lightgrey;
     margin: 10px;
+    margin-bottom: 11vh;
     border-radius: 10px;
     width: auto;
-    height: 30vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -173,5 +175,5 @@ footer{
 }
 
 footer img{
-    width: 20vw;
+    height: 8vh;
 }
