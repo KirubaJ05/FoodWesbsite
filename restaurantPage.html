@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="restaurantStyle.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Food Delivery Co</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+
+     <!------------- Header -------------->
+    <div class="card text-bg-dark" id="titleSplash">
+        <img src="Images/Taco Bell Background.jfif" class="card-img" alt="Taco Bell Background Splash">
+        <div class="card-img-overlay">
+            <h1 class="card-title">Taco Bell</h1>
+        </div>
+    </div>
+
+    <!-- ---------- Popular ------------ -->
+
+    <section id="popular">
+        <h3>Popular items</h3>
+        <div id="popularItems">
+            <div class="card" style="width: 15vw;">
+                <img src="Images/Burrito.png" class="card-img-top" alt="Burrito">
+                <div class="card-body">
+                    
+                </div>
+            </div>
+            <div class="card" style="width: 15vw;">
+                <img src="Images/Taco.png" class="card-img-top" alt="Taco">
+                <div class="card-body">
+                    
+                </div>
+            </div>
+            <div class="card" style="width: 15vw;">
+                <img src="Images/Wrap.png" class="card-img-top" alt="Wrap">
+                <div class="card-body">
+                    
+                </div>
+            </div>
+            <div class="card" style="width: 15vw;">
+                <img src="Images/Soft Taco.png" class="card-img-top" alt="Soft Taco">
+                <div class="card-body">
+                    
+                </div>
+            </div>
+            <div class="card" style="width: 15vw;">
+                <img src="Images/Fries.png" class="card-img-top" alt="Fries">
+                <div class="card-body">
+                    
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- ----------- Food ----------- -->
+
+    <section id="food">
+        <h3>Food</h3>
+
+        <div id="foodAndDeals">
+            <div class="foodCont" id="menu">
+                <ul>
+                    <li><h5>Soft Drinks</h5></li>
+                    <li><h5>Drinks</h5></li>
+                    <li><h5>Starters</h5></li>
+                    <li><h5>Mains</h5></li>
+                    <li><h5>Deserts</h5></li>
+                    <li><h5>Extras</h5></li>
+                </ul>
+            </div>
+
+            <div id="dealsAndBasket">
+                <div class="foodCont DNB" id="deals">
+                    <img src="Images/Taco Bell Deals.jfif" alt="Taco Bell Deals">
+                </div>
+
+                <div class="foodCont DNB" id="basket">
+                    <h4>Basket</h4>
+                    <div class="dnbInner">
+                        <ul>
+                            <li>Tripple Layered Crunch Wrap</li>
+                            <li>Volcano Burruit Box Meal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="selectedItems">
+            <h4>Mains</h4>
+            <div class="dnbInner">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="Images/Burrito.png" class="d-block w-100" alt="Burrito">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="Images/Taco.png" class="d-block w-100" alt="Taco">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="Images/Soft Taco.png" class="d-block w-100" alt="Soft Taco">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <footer>
+        <div>
+            <img src="Images/Home Icon.png" alt="Home Icon">
+        </div>
+        <div>
+            <img src="Images/Basket Icon.png" alt="Basket Icon">
+        </div>
+        <div>
+            <img src="Images/Options Icon.png" alt="Options Icon">
+        </div>    
+    </footer>
+
+
+</body>
+</html>
