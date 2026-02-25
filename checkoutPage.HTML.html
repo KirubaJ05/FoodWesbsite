@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary sticky-top" id = "myNavBar" >
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="#">
+            <img class = "img-fluid" src = "foodDeliveryLogo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Food Delivery App
+            </a>
+        </div>
+    </nav>
+    <div class = "container">
+        <div class = "row" >
+            <div class = "card-group" >
+                <div class="card" id = "checkoutCard">
+                    <div class = "row">
+                        <div class = "col">
+                        <img class = "img-fluid" src = "trolleyimage.png" alt="Image of Basket" id ="trolleyCheckoutImg">
+                        </div>
+                        <div class = "col">
+                        <h4>Checkout<h4> 
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col">
+                <div class = "card-group" >
+                    <div class = "card">
+                        <div class = "card-header">Taco Bell</div>
+                        <div class = "row">
+                            <div class = "col">
+                                <img  src="tacoBellLogo.png" alt="tacoBellLogo" id = "tacoBellImg">
+                            </div>
+                            <div class = "col">
+                                 <p>Address: 211 High St, Sutton SM1 1JU</p>
+                                <p>ETA: 25 - 35 mins</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "card">
+                        <div class = card-header>Location:</div>
+                        <img class = "card-img-bottom img-fluidsS"src="tacobellMap.png" alt="Map Location of Taco Bell" id ="mapImg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col" >
+                <div class = "card">
+                    <div class = "card-header">Order Summary:</div>
+                    <ul>
+                        <li>Volcano Burrito Box</li>
+                        <ul>
+                            <li>Grilled Chicken</li>
+                            <li>Crunchy Taco</li>
+                            <ul>
+                                <li>Seasoned Beef</li>
+                            </ul>
+                            <li>Regular Seasoned Fries</li>
+                            <li>Pepsi</li>
+                            <li>Churros + Caramel Sauce</li>
+                        </ul>
+                        <li>CrunchyWrap Supreme</li>
+                        <ul>
+                            <li>Black Bean</li>
+                            <ul>
+                                <li>Add Seasoned Beef</li>
+                                <li>Add Jalapenos</li>
+                            </ul>
+                        </ul>
+                    </ul>
+                    <div class = "card-footer"> Total Price £26.89</div>
+                </div>
+            </div>
+    </div>
+</div>
+<nav class="navbar bg-body-tertiary sticky-bottom justify-content-center" id = "footerApp">
+    <div class = "container-fluid">
+        <ul class="nav">
+            <li class="nav-item "id = "homeSize">
+                <a class="nav-link" aria-current="page" href="#"><img class = "img-fluid"src="home.png" alt="" id = "homeFooter"></a>
+            </li>
+            <li class="nav-item" id = "basketSize">
+                <a class="nav-link" href="#"><img class = "img-fluid" src="trolleyimage.png" alt="" id = "basketFooter"></a>
+            </li>
+            <li class="nav-item" id = "optionsSize">
+                <a class="nav-link" href="#"><img  class = "img-fluid" src="threelines.png" alt="" id = "optionsFooter"></a>
+            </li>
+        </div>
+</nav>
+
+</body>
+</html>
