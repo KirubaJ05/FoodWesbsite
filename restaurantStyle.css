@@ -1,0 +1,177 @@
+/* ----- General ------------------ */
+
+
+
+
+/* ----- Nav -------------------- */
+
+nav {
+    display: flex;
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar {
+    background-color: rgb(97, 157, 226) !important;
+}
+
+/* ----- Title Splash ----------------- */
+
+/* #titleSplash {
+    height: 30vh;
+} */
+
+/* ----- Popular ----------------- */
+
+#popular{
+    margin-top: 20px;
+}
+
+h3{
+    margin: 20px 10px;
+    border-bottom: 2px solid black;
+    padding-left: 5vw;
+}
+
+#popularItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin: 5px 10px;
+    padding: 5px;
+}
+#popularItems .card{
+    width: 15vw;
+    height: 15vw;
+    background-color: #888AFF;
+}
+.card{
+    align-items: center;
+}
+
+
+/* ----- Food ------------------- */
+
+#foodAndDeals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px 10px;
+}
+
+.foodCont {
+    background-color: lightgrey;
+    border-radius: 10px;
+    min-width: 10px;
+    min-height: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#menu{
+    height: 30vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+#menu li {
+    background-color: #888AFF;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100%;
+}
+#menu h5{
+    font-size: 18px;
+    margin: 0;
+    border-bottom: 2px solid white;
+}
+
+#deals img{
+    height: 100%;
+}
+
+
+#dealsAndBasket{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 30vh;
+    width: 50vw;
+}
+.DNB{
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+}
+
+.dnbInner{
+    background-color: #888AFF;
+    margin: 0 5% 5% 5%;
+    width: 90%;
+    height: 80%;
+    border-radius: 5px;
+    color: white;
+    padding-top: 10px;
+}
+.dnbInner li{
+    font-size: 12px;
+}
+
+/* ----- Selected Items --------------- */
+
+#selectedItems{
+    background-color: lightgrey;
+    margin: 10px;
+    border-radius: 10px;
+    width: auto;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#selectedItems h4{
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+    height: auto;
+}
+
+
+
+/* ----- Footer ----------------- */
+
+footer{
+    background-color: #619de2;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    top: 90vh;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10vw;
+}
+
+footer img{
+    width: 20vw;
+}
